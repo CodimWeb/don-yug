@@ -1,0 +1,78 @@
+.direction {
+    background-image: url(../img/leaves-left.svg), url(../img/leaves-right.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+}
+
+.direction-top {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.flight {
+    margin-top: 116px;
+    margin-right: -45px;
+    padding-left: 42px;
+}
+
+.flight h2 {
+    margin-bottom: 15px;
+}
+
+.flight p {
+    margin-bottom: 0;
+}
+
+.route {
+    font-weight: 500;
+}
+
+.btn-flight {
+    width: 307px;
+    height: 75px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 38px;
+    background-color: #EFC12D;
+    border: #EFC12D;
+}
+
+.data {
+    display: flex;
+    margin-top: 37px;  
+}
+
+.data p {
+    margin-bottom: 22px;
+    line-height: 150%;
+}
+
+.data-city {
+    font-size: 24px;
+}
+
+.data-time {
+    font-size: 18px;
+    padding-top: 7px;
+}
+
+.btn-reservation {
+    width: 146px;
+    height: 46px;
+    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    border: 2px solid #EFC12D;
+    border-radius: 100px;
+}
+
+.reservation__link {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #EFC12D;
+}
