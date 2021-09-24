@@ -27,6 +27,19 @@ $(document).ready(function(){
         dots: false
     });
 
+    $('.offer-slider .slider').slick({
+        speed: 500,
+        infinite: false,
+        slidesToScroll: 1,
+        slidesToShow: 3,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        arrows: false,
+        dots: false,
+        swipe: false,
+        variableWidth: true,
+    });
+
     $('.review-slider .slider').slick({
         speed: 500,
         infinite: false,

@@ -63,7 +63,7 @@
 
 .direction-slider {
     position: relative;
-    padding: 0 127px;
+    padding: 0 124px;
 }
 
 .direction-slider-arrow {
@@ -80,8 +80,8 @@
     right: 0;
 }
 
-.slick-item {
-    padding-right: 10px;
+.direction-slider .slick-item {
+    padding: 0 5px;
     background-color: #FFFFFF;
 }
 
