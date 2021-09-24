@@ -1,12 +1,14 @@
 .direction {
     background-image: url(../img/leaves-left.svg), url(../img/leaves-right.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: top left, top right;
+    background-position: top -249px left -150px, top -249px right -150px;
 }
 
 .direction-top {
     display: flex;
-    margin-bottom: 50px;
+    justify-content: space-between;
+    padding-top: 106px;
+    margin-bottom: 236px;
 }
 
 .flight {
@@ -39,6 +41,50 @@
     border: #EFC12D;
 }
 
+.car {
+    position: relative;
+}
+
+.car img {
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+.direction-bottom {
+    background-color: #F6F6F6;
+}
+
+.direction-bottom h2 {
+    padding-top: 63px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.direction-slider {
+    position: relative;
+    padding: 0 127px;
+}
+
+.direction-slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.direction-slider-prev {
+    left: 0;
+}
+
+.direction-slider-next {
+    right: 0;
+}
+
+.slick-item {
+    padding-right: 10px;
+    background-color: #FFFFFF;
+}
+
 .data {
     display: flex;
     margin-top: 37px;  
@@ -51,11 +97,17 @@
 
 .data-city {
     font-size: 24px;
+    padding-left: 29px;
 }
 
 .data-time {
     font-size: 18px;
     padding-top: 7px;
+}
+
+.direction__reservation {
+    padding-left: 28px;
+    margin-bottom: 30px;
 }
 
 .btn-reservation {
@@ -67,6 +119,7 @@
     line-height: 16px;
     border: 2px solid #EFC12D;
     border-radius: 100px;
+    margin-right: 43px;
 }
 
 .reservation__link {
@@ -75,4 +128,13 @@
     color: #000000;
     text-decoration: none;
     border-bottom: 1px solid #EFC12D;
+}
+
+.direction-bottom__btn {
+    text-align: center;
+}
+
+.direction-bottom .btn-flight {
+    margin-top: 24px;
+    margin-bottom: 62px;
 }

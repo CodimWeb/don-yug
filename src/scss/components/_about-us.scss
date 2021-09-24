@@ -1,0 +1,30 @@
+.about-us {
+    background-image: url(../img/figure-left.svg), url(../img/figure-right.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 88px left -146px, top 142px right -150px;
+}
+
+.about-us h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about-us__text {
+    margin-bottom: 40px;
+}
+
+.about-us__text p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.choice {
+    font-weight: 500;
+}
+
+.offer {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
