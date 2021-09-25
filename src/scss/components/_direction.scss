@@ -64,40 +64,87 @@
 .direction-slider {
     position: relative;
     padding: 0 124px;
+    margin-bottom: 50px;
 }
 
 .direction-slider-arrow {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 133px;
+    cursor: pointer;
+}
+
+.slick-item {
+    position: relative;
+}
+
+.slick-item__price {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    background: #EFC12D;
+    border-radius: 100px 0 0 100px;
+    padding: 8px 16px;
+}
+
+.slick-item__price p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+.direction-slider-arrow.slick-disabled {
+    cursor: default;
 }
 
 .direction-slider-prev {
-    left: 0;
+    left: 50px;
 }
 
 .direction-slider-next {
-    right: 0;
+    right: 50px;
+}
+
+.direction-slider-arrow svg path {
+    stroke: #115701;
+}
+
+.direction-slider-arrow.slick-disabled svg path {
+    stroke: #ccc;
+}
+
+.direction-slider .slick-list {
+    padding-bottom: 10px;
+}
+
+.direction-slider .slick-slide {
+    margin: 0 5px;
 }
 
 .direction-slider .slick-item {
-    padding: 0 5px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
+    
+    &:hover {
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, .1);
+    }
 }
 
 .data {
     display: flex;
-    margin-top: 37px;  
+    justify-content: space-between;
+    margin-top: 37px; 
+    width: 100%; 
+    padding: 0 18px;
 }
 
 .data p {
     margin-bottom: 22px;
     line-height: 150%;
+    white-space: nowrap;
 }
 
 .data-city {
     font-size: 24px;
-    padding-left: 29px;
 }
 
 .data-time {
@@ -106,35 +153,49 @@
 }
 
 .direction__reservation {
-    padding-left: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 18px;
     margin-bottom: 30px;
 }
 
 .btn-reservation {
     width: 146px;
     height: 46px;
-    background: #FFFFFF;
+    background: #FFF;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
     border: 2px solid #EFC12D;
     border-radius: 100px;
-    margin-right: 43px;
+
+    &:hover {
+        background-color: #EFC12D;
+    }
 }
 
 .reservation__link {
+    margin-top: 15px;
     font-size: 13px;
     line-height: 16px;
-    color: #000000;
+    color: #000;
+    font-weight: 600;
     text-decoration: none;
     border-bottom: 1px solid #EFC12D;
+    padding-bottom: 10px;
+
+    &:hover {
+        text-decoration: none;
+        color: #000;
+    }
 }
 
 .direction-bottom__btn {
     text-align: center;
+    padding-bottom: 62px;
 }
 
 .direction-bottom .btn-flight {
-    margin-top: 24px;
-    margin-bottom: 62px;
+    margin: 0;
 }

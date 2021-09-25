@@ -1,0 +1,69 @@
+.review h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.slick-item__body {
+    border: 1px solid #CCCCCC;
+    padding: 35px;
+}
+
+.review-heading {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #115701;
+    margin-bottom: 17px;
+}
+
+.review-text {
+    font-size: 17px;
+    line-height: 150%;
+    margin-bottom: 17px;
+}
+
+.review-name {
+    font-size: 15px;
+    line-height: 150%;
+    color: #767676;
+}
+
+.review-slider {
+    position: relative;
+    padding: 0 127px;
+}
+
+.review-slider-arrow {
+    position: absolute;
+    top: 210px;
+    cursor: pointer;
+}
+
+.review-slider-arrow.slick-disabled {
+    cursor: default;
+}
+
+.review-slider-prev {
+    left: 50px;
+}
+
+.review-slider-next {
+    right: 50px;
+}
+
+.review-slider-arrow svg path {
+    stroke: #115701;
+}
+
+.review-slider-arrow.slick-disabled svg path {
+    stroke: #ccc;
+}
+
+.review-slider .slick-list {
+    padding-bottom: 10px;
+}
+
+.review-slider .slick-slide {
+    margin: 0 5px;
+}
