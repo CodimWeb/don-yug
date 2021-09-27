@@ -5,6 +5,7 @@
 }
 
 .slick-item__body {
+    height: 450px;
     border: 1px solid #CCCCCC;
     padding: 35px;
 }
@@ -66,4 +67,10 @@
 
 .review-slider .slick-slide {
     margin: 0 5px;
+}
+
+.strip {
+    height: 10px;
+    background: #F6F6F6;
+    margin: 0 10px;
 }

@@ -1,0 +1,74 @@
+.contacts {
+    background-image: url(../img/ear-left.svg), url(../img/ear-right.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -23px left -32px, top -23px right -32px;
+}
+
+.contacts h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contacts-phones {
+    max-width: 668px;
+    padding-top: 80px;
+    text-align: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.contacts-phones__lvl-1 .phone-link {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.contacts-phones p {
+    margin-bottom: 15px;
+    padding-right: 34%;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contacts-phones-lvl-2 {
+    margin-bottom: 34px;
+}
+
+.contacts-phones-lvl-2 .phone-link {
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+.contacts-phones__lvl-3 {
+    padding-bottom: 80px;
+}
+
+.contacts-phones__link {
+    margin-right: 30px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #56A94F;
+    padding-bottom: 10px;
+
+    &:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback .header-social {
+    width: auto;
+    padding-left: 0;
+}
