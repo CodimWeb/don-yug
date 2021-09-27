@@ -6,7 +6,8 @@ window.$ = window.JQuery = JQuery;
 
 import Util from 'bootstrap/js/dist/util.js'
 import Modal from 'bootstrap/js/dist/modal'
-import collapse from 'bootstrap/js/dist/collapse'
+import Collapse from 'bootstrap/js/dist/collapse'
+import Tab from 'bootstrap/js/dist/tab'
 // import 'slick-carousel';
 import slick from 'slick-carousel';
 

@@ -5,3 +5,75 @@
 .direction-flights__title {
     margin-bottom: 80px;
 }
+
+.flights-tab {
+    width: 100%;
+    justify-content: center;
+    border: none;
+    margin-bottom: 55px;
+}
+
+.flights-tab .nav-link {
+    padding: 7px 4px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+}
+
+.flights-tab .nav-link.active,
+.flights-tab .nav-item.show .nav-link {
+    background: transparent;
+    border-bottom: 2px solid #115701;
+    color: #000;
+}
+
+.flights-tab-content {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.flights-tab-content .row {
+    margin: 0 -5px;
+}
+
+.flights-tab-content .row > div {
+    padding: 0 5px;
+}
+
+.flights-tab-content .slick-item {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.flights-tab-content .slick-item img {
+    width: 100%;
+}
+
+.flights-tab-content .data {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.flights-tab-content .data p {
+    margin-bottom: 4px;
+}
+
+.flights-tab-content .data-time {
+    padding-left: 30px;
+    position: relative;
+
+    &:before {
+        content: '';
+        width: 17px;
+        height: 16px;
+        background: url(../img/icon-time.svg);
+        position: absolute;
+        left: 4px;
+        top: 12px;
+    }
+}
