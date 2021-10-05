@@ -1,14 +1,15 @@
 /* BS Abstract */
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/mixins";
+@import "~bootstrap";
+// @import "~bootstrap/scss/functions";
+// @import "~bootstrap/scss/variables";
+// @import "~bootstrap/scss/mixins";
 
 /*BS reboot*/
-@import "~bootstrap/scss/reboot";
+// @import "~bootstrap/scss/reboot";
 
 /* BS grid */
-@import "~bootstrap/scss/grid";
-//@import "~bootstrap/dist/css/bootstrap-grid.css";
+// @import "~bootstrap/scss/grid";
+// @import "~bootstrap/dist/css/bootstrap-grid.css";
 
 /*BS components*/ 
 @import "~bootstrap/scss/transitions";
@@ -19,6 +20,8 @@
 
 // plugins
 @import "~slick-carousel/slick/slick";
+// @import "~air-datepicker/src/sass/datepicker.scss";
+@import "~air-datepicker/dist/css/datepicker.min.css";
 
 /*base custom*/ 
 @import "base/ui";
@@ -31,5 +34,7 @@
 @import "components/direction";
 @import "components/about-us";
 @import "components/review"; 
+@import "components/contacts";
+@import "components/footer";
 @import "components/direction-flights";
 @import "components/modals";

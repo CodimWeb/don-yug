@@ -25,6 +25,10 @@
     margin-bottom: 0;
 }
 
+.direction .new-line {
+    display: block;
+}
+
 .route {
     font-weight: 500;
 }
@@ -78,10 +82,14 @@
     background: #fff;
 }
 
+.slick-item img {
+    width: 100%;
+}
+
 .slick-item__price {
     position: absolute;
     top: 16px;
-    right: 0;
+    right: 0px;
     background: #EFC12D;
     border-radius: 100px 0 0 100px;
     padding: 8px 16px;
@@ -200,3 +208,147 @@
 .direction-bottom .btn-flight {
     margin: 0;
 }
+
+@media (max-width: 1599px) {
+
+    .direction-top {
+        margin-bottom: 160px;
+    }
+
+    .flight h2 {
+        font-size: 38px;
+    }
+
+    .car img {
+        width: 800px;
+        right: 0;
+    }
+    
+    .direction-slider {
+        padding: 0 75px;
+    }
+
+    .direction-slider-prev {
+        left: 20px;
+    }
+
+    .direction-slider-next {
+        right: 20px;
+    }
+
+    .data-city {
+        font-size: 21px;
+    }
+
+    .data-time {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1439px) {
+
+    .direction {
+        background-size: 60%;
+        background-position: top -160px left -150px, top -160px right -150px;
+    }
+
+    .direction-top {
+        padding-top: 86px;
+        margin-bottom: 130px;
+    }
+
+    .flight {
+        padding-left: 0;
+    }
+
+    .flight h2 {
+        font-size: 33px;
+    }
+
+    .car img {
+        width: 720px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .direction {
+        background-image: none;
+    }
+
+    .direction-top {
+        flex-direction: column-reverse;
+        padding-top: 66px;
+        margin-bottom: 70px;
+    }
+
+    .flight {
+        margin: 50px 0 0;
+        text-align: center;
+    }
+
+    .car img {
+        position: static;
+        width: 100%;
+    }
+
+    .direction-slider {
+        padding: 0 55px;
+    }
+
+    .data {
+        margin-top: 24px;
+    }
+
+    .data p {
+        margin-bottom: 15px;
+    }
+
+    .data-city {
+        font-size: 18px;
+    }
+
+    .data-time {
+        font-size: 14px;
+        padding-top: 3px;
+    }
+
+    .btn-reservation {
+        width: 136px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .direction-top {
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .flight {
+        margin: 40px 0 0;
+    }
+
+    .flight h2 {
+        font-size: 22px;
+        text-align: left;
+        max-width: 230px;
+        margin-bottom: 15px;
+    }
+
+    .flight p {
+        font-size: 15px;
+        line-height: 21px;
+        text-align: left;
+    }
+
+    .direction .new-line {
+        display: inline;
+    }
+
+    .direction-bottom h2 {
+        padding-top: 42px;
+        margin-bottom: 50px;
+    }
+}
+

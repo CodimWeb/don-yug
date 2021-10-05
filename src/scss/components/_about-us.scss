@@ -71,3 +71,29 @@
 .offer-item__text {
     min-height: 66px;
 }
+
+@media (max-width: 1439px) {
+    .about-us {
+        background-image: none;
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .offer-slider {
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    .offer-item-1 {
+        width: 100%;
+    }
+    
+    .offer-item-2 {
+        width: 100%;
+    }
+    
+    .offer-item-3 {
+        width: 100%;
+    }
+}

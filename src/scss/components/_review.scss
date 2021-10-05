@@ -5,6 +5,7 @@
 }
 
 .slick-item__body {
+    height: 450px;
     border: 1px solid #CCCCCC;
     padding: 35px;
 }
@@ -66,4 +67,51 @@
 
 .review-slider .slick-slide {
     margin: 0 5px;
+}
+
+.strip {
+    height: 10px;
+    background: #F6F6F6;
+    margin: 0 10px;
+}
+
+@media (max-width: 1599px) {
+
+    .slick-item__body {
+        padding: 35px 20px;
+    }
+
+    .review-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .review-slider {
+        padding: 0 55px;
+    }
+
+    .review-slider-prev {
+        left: 20px;
+    }
+
+    .review-slider-next {
+        right: 20px;
+    }
+
+    .slick-item__body {
+        padding: 20px;
+    }
+
+    .review-heading {
+        font-size: 17px;
+    }
+
+    .review-text {
+        font-size: 14px;
+    }
+
+    .review-name {
+        font-size: 14px;
+    }
 }
