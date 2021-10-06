@@ -115,3 +115,17 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 767px) {
+    .review h2 {
+        margin-bottom: 30px;
+    }
+
+    .review-slider {
+        padding: 0;
+    }
+
+    .review-slider-arrow {
+        display: none;
+    }
+}
