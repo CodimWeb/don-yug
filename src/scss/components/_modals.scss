@@ -30,6 +30,7 @@
 
 .modal-direction__info p {
     margin: 0;
+    text-align: center;
 }
 
 .modal-direction__city-title {
@@ -230,3 +231,156 @@ input[type=number] {
     padding: 0;
 }
 /* END MODAL CALL */ 
+
+@media (max-width: 767px) {
+
+    .modal-direction__title {
+        font-size: 36px;
+        margin: 40px 0 20px;
+    }
+
+    .modal-direction__info p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .modal-direction__city-title {
+        font-size: 22px;
+        margin: 24px 0;
+    }
+
+    .modal-direction__city li {
+        font-size: 20px;
+        line-height: 130%;
+        padding-left: 18px;
+        margin-bottom: 12px;
+    }
+
+    .modal-direction__city li:before {
+        width: 9px;
+        height: 9px;
+        top: 10px;
+    }
+
+    .btn-flight {
+        width: 240px;
+        height: 60px;
+        margin-top: 10px;
+        font-size: 20px;
+        border-radius: 30px;
+    }
+
+    .form-booking__title {
+        font-size: 36px;
+        line-height: 130%;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+
+    .form-booking__subtitle {
+        font-size: 18px;
+        line-height: 140%;
+        margin-bottom: 22px;
+    }
+
+    .form-booking__label {
+        font-size: 18px;
+        line-height: 140%;
+        margin-bottom: 16px;
+    }
+
+    .form-booking__input {
+        height: 50px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .form-booking .form-group {
+        padding-bottom: 14px;
+    }
+
+    .form-call__title {
+        font-size: 36px;
+        line-height: 130%;
+        margin-bottom: 22px;
+    }
+}
+
+@media (max-width: 639px) {
+
+    .modal-booking .modal-body {
+        padding: 40px 50px;
+    }
+
+    .form-booking__title {
+        font-size: 32px;
+        line-height: 130%;
+        margin-bottom: 18px;
+        text-align: center;
+    }
+
+    .form-booking__subtitle {
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 18px;
+    }
+
+    .form-booking {
+        padding: 0;
+    }
+
+    .form-booking__label {
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 12px;
+    }
+
+    .form-booking__input {
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+
+    .form-booking .form-group {
+        padding-bottom: 10px;
+    }
+
+    .form-call__title {
+        font-size: 32px;
+        line-height: 130%;
+        margin-bottom: 18px;
+    }
+
+    .modal-call .modal-body {
+        padding: 50px 15px;
+    }
+}
+
+@media (max-width: 419px) {
+
+    .modal-booking .modal-body {
+        padding: 30px 20px;
+    }
+
+    .form-booking__title {
+        font-size: 30px;
+        line-height: 130%;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .form-booking__subtitle {
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 16px;
+    }
+
+    .form-call__title {
+        font-size: 30px;
+        line-height: 130%;
+        margin-bottom: 16px;
+    }
+
+    .modal-call .modal-body {
+        padding: 50px 15px;
+    }
+}
