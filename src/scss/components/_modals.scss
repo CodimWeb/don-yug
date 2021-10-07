@@ -195,6 +195,7 @@ input[type=number] {
     border: none;
     background: transparent;
     outline: none !important;
+    z-index: 5;
 
     &:hover {
         opacity: 0.7;

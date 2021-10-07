@@ -4,13 +4,13 @@
 
 @media (max-width: 1599px) {
     .container {
-        width: 1400px;
+        max-width: 1400px;
     }       
 }
 
 @media (max-width: 1199px) {
     .container {
-        width: 960px;
+        max-width: 960px;
     }
 }
 

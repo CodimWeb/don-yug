@@ -62,11 +62,13 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'home.html',
-            template: './src/home.html'
+            template: './src/home.html',
+            inject: 'body',
         }),
         new HtmlWebpackPlugin({
             filename: 'flights.html',
-            template: './src/flights.html'
+            template: './src/flights.html',
+            inject: 'body',
         }),
         new MiniCssExtractPlugin({
             // filename: "[name].[hash].css"

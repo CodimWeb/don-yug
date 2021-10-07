@@ -69,6 +69,8 @@
     position: relative;
     padding: 0 124px;
     margin-bottom: 50px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .direction-slider-arrow {
@@ -348,6 +350,10 @@
 
     .direction-bottom {
         margin: 0 -15px;
+    }
+
+    .direction-bottom .row {
+        margin: 0;
     }
 
     .direction-bottom h2 {

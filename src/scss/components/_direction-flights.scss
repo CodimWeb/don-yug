@@ -77,3 +77,33 @@
         top: 12px;
     }
 }
+
+@media (max-width: 1439px) {
+    .flights-tab-content {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .flights-tab-content .data {
+        margin-bottom: 16px;
+    }
+
+    .flights-tab-content .data-time:before {
+        top: 5px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .flights-tab .nav-link {
+        padding: 7px 6px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .flights-tab-content .slick-item {
+        margin-bottom: 15px;
+    }
+}
+
