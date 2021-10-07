@@ -346,9 +346,35 @@
         display: inline;
     }
 
+    .direction-bottom {
+        margin: 0 -15px;
+    }
+
     .direction-bottom h2 {
-        padding-top: 42px;
-        margin-bottom: 50px;
+        padding-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .direction-slider {
+        padding: 0 15px;
+        margin-bottom: 60px;
+    }
+
+    .direction__reservation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .direction-slider-arrow {
+        display: none;
+    }
+
+    .direction-slider .slick-dots {
+        margin-top: 25px;
+    }
+
+    .direction-bottom__btn {
+        display: none;
     }
 }
 
