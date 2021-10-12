@@ -11,12 +11,24 @@
     padding: 0;
 }
 
+.modal-direction .close,
+.modal-booking .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 1;
+}
+
 .modal-direction-img {
     width: 100%;
 }
 
+.modal-direction__decsription {
+    padding: 0 40px
+}
+
 .modal-direction__title {
-    text-align: center;
+    text-align: left;
     font-weight: 500;
     font-size: 60px;
     line-height: 150%;
@@ -24,17 +36,16 @@
 }
 
 .modal-direction__info {
-    max-width: 222px;
     margin: 0 auto;
+    text-align: left;
 }
 
-.modal-direction__info p {
-    margin: 0;
-    text-align: center;
-}
+// .modal-direction__info p {
+//     margin: 0;
+//     text-align: center;
+// }
 
 .modal-direction__city-title {
-    text-align: center;
     font-weight: 500;
     font-size: 30px;
     line-height: 150%;
@@ -73,7 +84,6 @@
 }
 
 .modal-direction__btn-wrap {
-    text-align: center;
     padding-bottom: 83px;
 }
 
@@ -144,6 +154,10 @@ input[type=number] {
     }
 }
 
+.form-booking__input.has-error {
+    border-color: #d30d0d;
+}
+
 .form-booking__quantity {
     display: flex;
     align-items: center;
@@ -197,9 +211,9 @@ input[type=number] {
     outline: none !important;
     z-index: 5;
 
-    &:hover {
-        opacity: 0.7;
-    }
+    // &:hover {
+    //     opacity: 0.7;
+    // }
 }
 
 .modal-call .modal-body {
@@ -263,10 +277,15 @@ input[type=number] {
         top: 10px;
     }
 
+    .modal-direction__info {
+        font-size: 18px;
+    }
+
     .btn-flight {
         width: 240px;
         height: 60px;
-        margin-top: 10px;
+        line-height: 60px;
+        margin-top: 20px;
         font-size: 20px;
         border-radius: 30px;
     }

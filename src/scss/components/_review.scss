@@ -91,6 +91,10 @@
         padding: 0 55px;
     }
 
+    .review-slider-arrow {
+        top: 120px;
+    }
+
     .review-slider-prev {
         left: 20px;
     }
@@ -101,6 +105,7 @@
 
     .slick-item__body {
         padding: 20px;
+        height: 300px;
     }
 
     .review-heading {
