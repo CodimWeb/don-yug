@@ -145,7 +145,7 @@ $(document).ready(function(){
         $('.modal-direction__info').html(item.info);
         $('#btn-booking').attr('data-id', item.id);
         $('#modal-direction').modal('show');
-        console.log(item);
+        
     })
 
     $('#btn-booking').on('click', function(){
@@ -196,7 +196,9 @@ $(document).ready(function(){
             }
         });
         $('#modal-booking').modal('hide');
-        $('.form-booking').trigger('reset');
+        setTimeout(function(){
+            $('.form-booking').trigger('reset');
+        }, 1000)
         $('.form-booking__quantity__input').val('1');
     })
 
@@ -229,7 +231,11 @@ $(document).ready(function(){
             
             }
         });
-        $('#modal-booking').modal('hide');
+        $('#modal-call').modal('hide');
+        setTimeout(function(){
+            $('.form-call').trigger('reset');
+        }, 1000)
+        
     })
 
     $('.form-call__input-name').on('input', function(){
@@ -247,17 +253,4 @@ $(document).ready(function(){
             scrollTop: ($(target).offset().top)
         }, 1000);
     })
-
-    let smooth = $('.smooth');
-  smooth.on('click', function(e){
-    e.preventDefault();
-    let target = $(this).data('target');
-    offcanvas.removeClass('show');
-    $('body').removeClass('disabled-scroll');
-    $('body,html').animate({
-      scrollTop: ($(target).offset().top - 70) //70 header height
-    }, 1000);
-    // smooth.removeClass('active');
-    // $('[data-target="'+target+'"]').addClass('active');
-  });
 })
