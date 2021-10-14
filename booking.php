@@ -35,6 +35,7 @@ require 'PHPMailer/PHPMailerAutoload.php';
 $mail = new PHPMailer;
  
 $mail->isSMTP();
+$mail->CharSet = 'UTF-8';
 $mail->Host = 'server195.hosting.reg.ru';
 $mail->SMTPAuth = true;
 $mail->Username = 'don-yug@don-yug.ru';    //Логин
@@ -47,7 +48,6 @@ $mail->addAddress('nastenasemykina55@gmail.com');
 
 
 
-
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $phone2 = $_POST['phone2'];
@@ -55,7 +55,7 @@ $quantity = $_POST['quantity'];
 $direction = $_POST['direction'];
 $date_from = $_POST['date-from'];
 $date_to = $_POST['date-to'];
-$subject = "online booking!";
+$subject = "онлайн бронирование";
 
 
 $message = "Имя: $name <br>

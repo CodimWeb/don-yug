@@ -18,6 +18,7 @@
 $mail = new PHPMailer;
  
 $mail->isSMTP();
+$mail->CharSet = 'UTF-8';
 $mail->Host = 'server195.hosting.reg.ru';
 $mail->SMTPAuth = true;
 $mail->Username = 'don-yug@don-yug.ru';    //Логин
@@ -31,7 +32,7 @@ $mail->addAddress('nastenasemykina55@gmail.com');
 
 $name = $_POST['name'];
 $phone = $_POST['phone'];
-$subject = "call request";
+$subject = "запрос звонка";
 
 
 $message = "Имя: $name <br> Телефон: $phone <br>";
