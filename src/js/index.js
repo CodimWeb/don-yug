@@ -253,4 +253,30 @@ $(document).ready(function(){
             scrollTop: ($(target).offset().top)
         }, 1000);
     })
+
+    var getParams = (function() {
+        var params = window.location.href.split('?')[1];
+        if(params) {
+            var b = new Object();
+            params = params.split("&");
+            for (var i = 0; i < params.length; i++) {
+                var c = params[i].split("=");
+                b[c[0]] = c[1];
+            }
+            return b;
+        }
+    })();
+
+    if(getParams) {
+        console.log(getParams)
+        if(getParams['id']) {
+            var id = getParams['id'];
+            var item = data.find(item => item.id == id );
+            $('.modal-direction-img').attr('src', item.img);
+            $('.modal-direction__title').html(item.city);
+            $('.modal-direction__info').html(item.info);
+            $('#btn-booking').attr('data-id', item.id);
+            $('#modal-direction').modal('show');
+        }
+    }
 })
